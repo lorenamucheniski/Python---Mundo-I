@@ -2,6 +2,7 @@
 Repositório criado para os exercicíos de Python do curso em vídeo com o professor Gustavo Guanabara.
 
 1 - Descrição
+
 2 - Tipos Primitivos de Dados
 
 ## 1 - Descrição
