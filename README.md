@@ -18,7 +18,12 @@ Um tipo de dado primitivo é a representação computacional de algum conceito u
 ![](imagens/tipos.png)
 
 ## 3 - Módulos e Bibliotecas em Python
-Um módulo é um arquivo contendo definições e comandos em Python para serem usados em outros programas em Python. Há diversos módulos do Python que fazem parte da biblioteca padrão. 
+O que é um módulo e uma biblioteca?
+
+Um módulo nada mais é do que um arquivo .py com instruções e definições em Python, para serem usados em outros programas em Python. Há diversos módulos do Python que fazem parte da biblioteca padrão. 
 
 Uma biblioteca é um conjunto de módulos. Portanto, a biblioteca padrão Python é um conjunto de módulos disponíveis em Python para que você possa importá-los e usar as funcionalidades deles quando bem quiser.
+
+No exemplo abaixo, criaremos um módulo que representa um círculo. Para isso, criamos um arquivo chamado circulo.py com o seguinte conteúdo:
+
 
