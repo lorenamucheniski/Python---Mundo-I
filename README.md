@@ -45,4 +45,18 @@ Um exemplo: P será nossa variável e Olá, mundo! nossa string então teremos..
 
 O jeito mais básico de manipular strings é através de métodos que estão dentro delas (strings). Podemos fazer um limitado número de tarefas em strings através desses métodos. A seguir veremos alguns desses métodos.
 
-Para verificar qual é o tipo da variável podemos usar type() :
+#### > Para verificar qual é o **tipo** da variável podemos usar type() :
+
+![](imagens/type.png)                
+
+E nós teremos o retorno de que minha variável **p** é uma string:
+
+![](imagens/type_result.png)
+
+#### > Podemos utilizar len() para vereficar quantos caracteres tem na string: 
+
+![](imagens/len.png)
+
+E o resultado retornado de 10 caracteres:
+
+![](imagens/len_result.png)
