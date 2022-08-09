@@ -38,3 +38,11 @@ No exemplo abaixo, criaremos um módulo que representa um círculo. Para isso, c
  Para manipular uma String precisamos criar uma e para isso a forma mais pratica é atribuir uma variável a qualquer palavra. O python considera tudo o que estiver entre 'aspas simples' ou "aspas duplas" como String. Utilizamos print( ) para pedir ao programa escrever na tela o que está dentro dos parênteses.
 
 Um exemplo: P será nossa variável e Olá, mundo! nossa string então teremos...
+
+![](imagens/ola_mundo.png)
+
+**_Funções de Manipulação de String_**
+
+O jeito mais básico de manipular strings é através de métodos que estão dentro delas (strings). Podemos fazer um limitado número de tarefas em strings através desses métodos. A seguir veremos alguns desses métodos.
+
+Para verificar qual é o tipo da variável podemos usar type() :
