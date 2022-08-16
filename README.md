@@ -1,10 +1,12 @@
 # Python---Mundo-I
 Repositório criado para os exercicíos de Python do curso em vídeo com o professor Gustavo Guanabara.
 
+[Curso em Vídeo - Python Mundo I](https://youtu.be/S9uPNppGsGo)
+
 1. Descrição
 2. Tipos Primitivos de Dados
 3. Módulos e Bibliotecas em Python
-4. Manipulando textos
+4. Manipulando strings
 
 ## 1 - Descrição
 Python é uma linguagem ultra moderna, utilizada por grandes empresas como Google, YouTube, Industrial Light & Magic, Globo e muitas outras. Fácil de aprender, com código limpo e organizado, Python vem ganhando cada vez mais espaço, e chegou a sua hora de aprender. Curso criado pelo Prof. Gustavo Guanabara com uma temática divertida de vídeo-game para motivar seus alunos, é dividido em mundos para facilitar o estudo.
@@ -33,7 +35,7 @@ No exemplo abaixo, criaremos um módulo que representa um círculo. Para isso, c
  
  Note que usamos o comando **import circulo** para que pudéssemos usar as definições do módulo círculo em nosso programa. De modo geral, essa é a forma pela qual usamos módulos em Python. Caso quiséssemos utilizar apenas a função area() poderíamos importar apenas ela por meio do comando **from circulo import area**. Isso é útil em caso de módulos muito grandes e quando queremos usar apenas uma ou outra função deles.
  
- ## 4 - Manipulando Textos
+ ## 4 - Manipulando strings
  
  Para manipular uma String precisamos criar uma e para isso a forma mais pratica é atribuir uma variável a qualquer palavra. O python considera tudo o que estiver entre 'aspas simples' ou "aspas duplas" como String. Utilizamos print( ) para pedir ao programa escrever na tela o que está dentro dos parênteses.
 
@@ -45,4 +47,26 @@ Um exemplo: P será nossa variável e Olá, mundo! nossa string então teremos..
 
 O jeito mais básico de manipular strings é através de métodos que estão dentro delas (strings). Podemos fazer um limitado número de tarefas em strings através desses métodos. A seguir veremos alguns desses métodos.
 
-Para verificar qual é o tipo da variável podemos usar type() :
+#### > Para verificar qual é o **tipo** da variável podemos usar type() :
+
+![](imagens/type.png)                
+
+E nós teremos o retorno de que minha variável **p** é uma string:
+
+![](imagens/type_result.png)
+
+#### > Podemos utilizar len() para vereficar quantos caracteres tem na string: 
+
+![](imagens/len.png)
+
+E o resultado retornado de 10 caracteres:
+
+![](imagens/len_result.png)
+ 
+ Essas foram só algumas das muitas formas de manipular String dentro do Python. Mais alguns sites que podem explicar e dar exemplos de manipulação de Strings:
+ 
+ [Python Brasil](https://wiki.python.org.br/ManipulandoStringsComPython)
+ 
+ [Data Marte](https://datamarte.com/como-manipular-strings-em-python/)
+ 
+ [Programming Historian](https://programminghistorian.org/pt/licoes/manipular-strings-python)
