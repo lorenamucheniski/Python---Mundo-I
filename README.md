@@ -70,3 +70,13 @@ E o resultado retornado de 10 caracteres:
  [Data Marte](https://datamarte.com/como-manipular-strings-em-python/)
  
  [Programming Historian](https://programminghistorian.org/pt/licoes/manipular-strings-python)
+ 
+ ## Condições If e Else
+ 
+ O **if** e **else** são estruturas condicionais de controle que permitem avaliar uma expressão, e de acordo com o seu resultado, executar uma determinada ação.
+ 
+ Vamos colocar em prática o uso do **if** e **else**.
+ 
+ No código a seguir, verificaremos se a variável idade é menor que 20. Se caso for afirmativo, aparecerá uma mensagem na tela, se caso for negativo, o código seguirá normalmente ignorando a linha 3:
+ 
+ ![](imagens/if.png)
