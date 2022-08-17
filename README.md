@@ -7,6 +7,7 @@ Repositório criado para os exercicíos de Python do curso em vídeo com o profe
 2. Tipos Primitivos de Dados
 3. Módulos e Bibliotecas em Python
 4. Manipulando strings
+5. Condições If e Else
 
 ## 1 - Descrição
 Python é uma linguagem ultra moderna, utilizada por grandes empresas como Google, YouTube, Industrial Light & Magic, Globo e muitas outras. Fácil de aprender, com código limpo e organizado, Python vem ganhando cada vez mais espaço, e chegou a sua hora de aprender. Curso criado pelo Prof. Gustavo Guanabara com uma temática divertida de vídeo-game para motivar seus alunos, é dividido em mundos para facilitar o estudo.
@@ -70,3 +71,13 @@ E o resultado retornado de 10 caracteres:
  [Data Marte](https://datamarte.com/como-manipular-strings-em-python/)
  
  [Programming Historian](https://programminghistorian.org/pt/licoes/manipular-strings-python)
+ 
+ ## 5 - Condições If e Else
+ 
+ O **if** e **else** são estruturas condicionais de controle que permitem avaliar uma expressão, e de acordo com o seu resultado, executar uma determinada ação.
+ 
+ Vamos colocar em prática o uso do **if** e **else**.
+ 
+ No código a seguir, verificaremos se a variável idade é menor que 20. Se caso for afirmativo, aparecerá uma mensagem na tela, se caso for negativo, o código seguirá normalmente ignorando a linha 3:
+ 
+ ![](imagens/if.png)
