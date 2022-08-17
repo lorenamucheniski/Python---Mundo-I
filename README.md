@@ -78,6 +78,14 @@ E o resultado retornado de 10 caracteres:
  
  Vamos colocar em prática o uso do **if** e **else**.
  
- No código a seguir, verificaremos se a variável idade é menor que 20. Se caso for afirmativo, aparecerá uma mensagem na tela, se caso for negativo, o código seguirá normalmente ignorando a linha 3:
+ No código a seguir, usaremos a condição if. Verificaremos se a variável idade é menor que 20. Se caso for afirmativo, aparecerá uma mensagem na tela, se caso for negativo, o código seguirá normalmente ignorando a linha 3:
  
  ![](imagens/if.png)
+ 
+Como podemos notar, essa estrutura é formada pela palavra reservada if, seguida por uma condição e por dois pontos (:). As linhas abaixo dela formam o bloco de instruções que serão executadas se a condição for atendida. Para isso, elas devem ser identadas corretamente, respeitando a especificação do Python. Nesse código, apenas a instrução da linha 3 é executada, e por isso ela está tabulada. Se fosse necessária a execução de outras linhas no caso da idade ser menor que 20, elas também deveriam estar no mesmo nível de identação da linha 3.
+
+Agora usaremos a condição if e else. Vimos anteriormente como utilizar o if para executar uma ação caso uma condição seja atendida. No entanto, nenhum comportamento específico foi definido para o caso de a condição não ser satisfeita. Quando isso é necessário, precisamos utilizar a reservada else:
+
+![](imagens/if_else.png)
+
+Dessa vez, caso a condição avaliada na linha 3 não seja atendida, definimos o fluxo alternativo que o código deve seguir. Ou seja, se a idade não for maior ou igual a 18, o bloco abaixo da palavra reservada else deverá ser executado. Nesse caso, temos apenas uma instrução de impressão na linha 5.
