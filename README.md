@@ -8,6 +8,7 @@ Repositório criado para os exercicíos de Python do curso em vídeo com o profe
 3. Módulos e Bibliotecas em Python
 4. Manipulando strings
 5. Condições If e Else
+6. Adicionando cores ao Pyhton
 
 ## 1 - Descrição
 Python é uma linguagem ultra moderna, utilizada por grandes empresas como Google, YouTube, Industrial Light & Magic, Globo e muitas outras. Fácil de aprender, com código limpo e organizado, Python vem ganhando cada vez mais espaço, e chegou a sua hora de aprender. Curso criado pelo Prof. Gustavo Guanabara com uma temática divertida de vídeo-game para motivar seus alunos, é dividido em mundos para facilitar o estudo.
@@ -89,3 +90,11 @@ Agora usaremos a condição if e else. Vimos anteriormente como utilizar o if pa
 ![](imagens/if_else.png)
 
 Dessa vez, caso a condição avaliada na linha 3 não seja atendida, definimos o fluxo alternativo que o código deve seguir. Ou seja, se a idade não for maior ou igual a 18, o bloco abaixo da palavra reservada else deverá ser executado. Nesse caso, temos apenas uma instrução de impressão na linha 5.
+
+## 6 - Adicionando cores ao Pyhton
+
+Para adicionar cores no nosso terminal, usaremos o código ANSI para cores. Primeiramente, vamos entender como ele funciona.
+
+O código ANSI começa com contra barra ( \ ) e depois vem o código. O código que funciona melhor para cores no Pyhton é o 033. Sempre que uma cor no Pyhton precisar ser representada, então começará com contra barra( \ ), seguido do código 033 e depois colchete ( [ ). Esse código precisa ser fechado, e pra isso usa-se a letra **m**.
+
+![](imagens/ansi.png)
