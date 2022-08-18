@@ -98,3 +98,5 @@ Para adicionar cores no nosso terminal, usaremos o código ANSI para cores. Prim
 O código ANSI começa com contra barra ( \ ) e depois vem o código. O código que funciona melhor para cores no Pyhton é o 033. Sempre que uma cor no Pyhton precisar ser representada, então começará com contra barra( \ ), seguido do código 033 e depois colchete ( [ ). Esse código precisa ser fechado, e pra isso usa-se a letra **m**.
 
 ![](imagens/ansi.png)
+
+Agora entre o **colchete** e o **m** você irá preencher com "coisas". Essas "coisas" podem ser nenhum código, um código, dois códigos ou três códigos. 
