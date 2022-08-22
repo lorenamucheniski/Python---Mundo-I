@@ -100,3 +100,15 @@ O código ANSI começa com contra barra ( \ ) e depois vem o código. O código 
 ![](imagens/ansi.png)
 
 Agora entre o **colchete** e o **m** você irá preencher com "coisas". Essas "coisas" podem ser nenhum código, um código, dois códigos ou três códigos. 
+
+O 1º código representado será o código do estilo, ou seja, se a a fonte estrá em negrito, normal, sublinhada; em seguida será o 2º código referente a cor do texto; e por 3º e último código será informado a cor de fundo. Esses códigos de cores não precisam de uma ordem específica para funcionar, pois existe uma diferenciação numérica entre eles, como podemos ver a seguir:
+
+![](imagens/codigo_cores.png)
+
+Para usar essas configurações no nosso código agora, veremos no exemplo a seguir: 
+
+Pedimos para o programa imprimir na tela a mensagem "Olá, Mundo!". Para adicionar as cores então começamos com o contra barras, o 0 e o 33, abrimos colchete e logo em seguida já colocamos a nossa 1º configuração da fonte que foi o número 4, referente ao estilo, que esse será sublinhado. Em seguida, após o ponto e vírgula, escolhemos a cor referente ao texto, que nesse caso é o número 30, que corresponde a cor branca. Por último, escolhemos a cor de fundo do nosso texto, nesse caso representado pelo número 45, que corresponde a cor lilás. Depois da última configuração que foi o número 45, precisamos adicionar o **m**. Após terminar o texto e as nossas configurações, precisamos fecha-lá, usando novamente o contra barras, o 0 e o 33, colchete e **m**. (\033[m)
+
+![](imagens/usando_cores.png)
+
+
