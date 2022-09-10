@@ -16,15 +16,17 @@ Python é uma linguagem ultra moderna, utilizada por grandes empresas como Googl
 O primeiro mundo foi pensando de forma a apresentar a linguagem ao aluno, o professor irá introduzir a linguagem, seus conceitos, montar o primeiro programa e ensinar alguns recursos básicos.
 
 ## 2 - Operadores Aritméticos
-Os operadores aritméticos são utilizados na execução de operações matemáticas, tais como a soma e a subtração, por exemplo. Vejamos na Tabela 1 a lista deles.
+Os operadores aritméticos são utilizados na execução de operações matemáticas, tais como a soma e a subtração, por exemplo. Vejamos na tabela a lista deles.
 
-## 2 - Tipos Primitivos de Dados
+![](imagens/operadores_aritmeticos.png)
+
+## 3 - Tipos Primitivos de Dados
 
 Um tipo de dado primitivo é a representação computacional de algum conceito usado no nosso cotidiano, como os números, as letras do alfabeto e os sinais de pontuação. Esses são os elementos mais básicos usados para construir um programa. O tipo de dado primitivo serve para definir a quantidade de memória alocada e a faixa de valores possíveis para uma variável. Um dado pode ser do tipo int, float, bool ou str.
 
 ![](imagens/tipos.png)
 
-## 3 - Módulos e Bibliotecas em Python
+## 4 - Módulos e Bibliotecas em Python
 O que é um módulo e uma biblioteca?
 
 Um módulo nada mais é do que um arquivo .py com instruções e definições em Python, para serem usados em outros programas em Python. Há diversos módulos do Python que fazem parte da biblioteca padrão. 
@@ -41,7 +43,7 @@ No exemplo abaixo, criaremos um módulo que representa um círculo. Para isso, c
  
  Note que usamos o comando **import circulo** para que pudéssemos usar as definições do módulo círculo em nosso programa. De modo geral, essa é a forma pela qual usamos módulos em Python. Caso quiséssemos utilizar apenas a função area() poderíamos importar apenas ela por meio do comando **from circulo import area**. Isso é útil em caso de módulos muito grandes e quando queremos usar apenas uma ou outra função deles.
  
- ## 4 - Manipulando strings
+ ## 5 - Manipulando strings
  
  Para manipular uma String precisamos criar uma e para isso a forma mais pratica é atribuir uma variável a qualquer palavra. O python considera tudo o que estiver entre 'aspas simples' ou "aspas duplas" como String. Utilizamos print( ) para pedir ao programa escrever na tela o que está dentro dos parênteses.
 
@@ -77,7 +79,7 @@ E o resultado retornado de 10 caracteres:
  
  [Programming Historian](https://programminghistorian.org/pt/licoes/manipular-strings-python)
  
- ## 5 - Condições If e Else
+ ## 6 - Condições If e Else
  
  O **if** e **else** são estruturas condicionais de controle que permitem avaliar uma expressão, e de acordo com o seu resultado, executar uma determinada ação.
  
@@ -95,7 +97,7 @@ Agora usaremos a condição if e else. Vimos anteriormente como utilizar o if pa
 
 Dessa vez, caso a condição avaliada na linha 3 não seja atendida, definimos o fluxo alternativo que o código deve seguir. Ou seja, se a idade não for maior ou igual a 18, o bloco abaixo da palavra reservada else deverá ser executado. Nesse caso, temos apenas uma instrução de impressão na linha 5.
 
-## 6 - Adicionando cores ao Pyhton
+## 7 - Adicionando cores ao Pyhton
 
 Para adicionar cores no nosso terminal, usaremos o código ANSI para cores. Primeiramente, vamos entender como ele funciona.
 
